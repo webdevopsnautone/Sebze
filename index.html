@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sebze</title>
+<!---------------------------Bootstrap cdn-->
+	<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!---External css stylesheet-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!--title img section-->
+    <link rel="icon" href="images/logo32.png" sizes="180X180" type="image/png"/>
+
+<!---------------font family icons------------------------->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+<script type="text/javascript" src="js/navbar.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+<!---------------------social media handle-------
+<div class="sidebar">
+      <a href="https://www.facebook.com/Sebze-103753622272620" target="_blank"><div class="social facebook">
+
+      <p style="color:white;text-decoration: none;"><i class="bi bi-facebook" style="color: white;"></i> Like on Facebook </p>
+
+  </div></a>
+
+      <a href="https://www.instagram.com/sebze.in/" target="_blank"><div class="social twitter">
+
+      <p style="color:white;text-decoration: none;"><i class="bi bi-instagram" style="color: white;"></i> Follow on instagram</p>
+
+  </div></a>
+</div>--->
+
+<!-------------------------------popup box start---------------------->
+<div style="display:none;">
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+</div>
+<div class="container">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="text-align: center;">
+          <h4 class="modal-title" style="color:green;font-weight: bold;text-transform: uppercase;">Download Sebze app</h4>
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div style="text-align:center;">
+          <img src="images/logo.png" style="width:100px;margin-bottom: 1.2em;text-align: center;">
+          </div>
+          <div style="text-align:center;margin-top: 1em;">
+            <a href="#"><img src="images/playstore.png" width="150px"></a>
+            
+            <a href="#"><img src="images/appstore.png" width="150px" ></a>
+          </div>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<!-------------------------------popup box end---------------------->
+<!--Navbar header-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <div class="container-fluid">
+  <a href="www.sebze.in"><img src="images/logo.png" alt="Sebze" id="logo" class="d-inline-block align-text-top"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" aria-current="page" href="#" style="color: #ff8308;">Home</a>
+        <a class="nav-link" href="#Aboutus">About us</a>
+        <a class="nav-link" href="Blog.html">Blog</a>
+        <a class="nav-link" href="Gallery.html">Gallery</a>
+        <a class="nav-link" href="#ContactUS">Contact us</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<!--end-->
+
+<!--carosule slider starts-->
+<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item">
+      <img src="images/carosule/healthy-tasty-fruits-vegetables.webp" class="d-block w-100" id="front" alt="...">
+      <div class="carousel-caption d-md-block">
+        <h5>Hand picked fresh fruits and vegetables</h5>
+        <button class="btn">Coming soon</button>
+      </div>
+    </div>
+    <div class="carousel-item active">
+      <img src="images/carosule/huge-group-fresh-vegetables-fruits.webp" class="d-block w-100" id="front" alt="...">
+      <div class="carousel-caption d-md-block">
+        <h5>Wide range of fruits & veggies at your doorstep</h5>
+        <button class="btn">Coming soon</button>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--carosule slider ends-->
+
+
+<!---container one -->
+<div class="container-fluid">
+	<div class="row sec1">
+		<div class="col-md-6" id="Aboutus">
+			<h1 data-aos="fade-right"data-aos-offset="300" data-aos-easing="ease-in-sine">we are<!--<span style="margin-left: -1.3em;margin-top: -30px;position: absolute;transform: rotate(45deg);"><img src="images/logo32.png" width="43px"></span>--></h1>
+			<h2 class="highlight-hd" data-aos="fade-top"data-aos-offset="400" data-aos-easing="ease-in-sine">Sebze</h2>
+			<p>Hello Chennaites, we at Sebze are motivated by ancient knowledge, science, sustainability, and protection. Sebze has made online shopping for fresh produce much easier with its hassle-free home delivery options. You may plan your order and pick your delivery slot in advance. Sebze offers the greatest pricing on farm-fresh produce compared to other stores and vendors. The attractive bargains might save you up to 25% on your monthly grocery expenditures.
+      Sebze gathers fresh fruits and vegetables from a vast network of farmers across Tamilnadu, providing you with farm-to-table products in less than 18 hours. Quality fresh products are ensured with our safe and hygienic packaging and you get the best quality fresh produce.  We provide fair margins for our food producers. We create chemical-free food, avoiding synthetic pesticides and petroleum-based fertilizers. Instead, we advise them to use compost and mechanical weed control. We are constantly working towards long-term crop planning, farm business management, and capital development. We provide fair margins for our farming partners and fair prices for their customers. Together, we support local economies.
+      Get ready to shop from the comfort of your house, office, or on the move. Get access to our local, nutrient-rich, flavorful, hand-crafted greens, fruits, and vegetables at Sebze.
+      We bring the freshest produce right to your doorstep!
+      For trade inquiries, bulk supply, affiliate partnerships, or a distributorship contact us.</p>
+		</div>
+		<div class="col-md-6" style="overflow: hidden;">
+			<img src="images/carosule/0.png" width="100%" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+		</div>
+	</div>
+</div>
+<!---container one ends -->
+
+
+<!---container two -->
+<div class="container-fluid sec2">
+	<h1><font data-aos="flip-left" data-aos-offset="300"  data-aos-duration="3000">Quality</font> & <font style="color:#2e8a57;" data-aos="flip-right"data-aos-offset="300">Freshness</font></h1>
+
+	    <div class="col-md-10 offset-md-1">
+      <p style="font-size: 18px;font-family: 'Montserrat', sans-serif;font-weight: bold;line-height: 1.8em;">When it's directly from farmers, you might be concerning the freshness and quality of the veggies and fruits. Sebze understands every customer individually and serves them the best. Quality factors for fruits and vegetables include maturity, tenderness, firmness, proper size and shape, toughness, no defects, fresh skin, and flesh color.<br>
+Get the freshness of Sebze's produce at the doorstep. Get ready to order soon.</p>
+  </div>
+	
+	  <div class="row" style="text-align: center;">
+    <div class="col-md-4 col-sm-4 col-xs-4">
+    			<div class="logo-cnt" data-aos="zoom-in-up"data-aos-offset="300" data-aos-easing="ease-in-sine">
+					<img src="images/icons/freshness.png" >
+				</div>
+    </div>
+    <div class="col-md-4 col-sm-4 col-xs-4">
+    			<div class="logo-cnt" data-aos="zoom-in-up"data-aos-offset="300" data-aos-easing="ease-in-sine">
+					<img src="images/icons/quality.png" >
+				</div>
+    </div>
+    <div class="col-md-4 col-sm-4 col-xs-4">
+    		<div class="logo-cnt" data-aos="zoom-in-up"data-aos-offset="300" data-aos-easing="ease-in-sine">
+					<img src="images/icons/lowest_price.png" >
+				</div>
+    </div>
+  		</div>
+</div>
+
+<!--social media row starts-->
+
+<div class="container-fluid" style="margin-top:29%;height: 100vh;">
+          <h1 style="font-family:'PT Sans', sans-serif;text-align: center;font-size: 5em;font-weight:600;color: #198754;margin-bottom: 1em;margin-top:1em;text-shadow: 3px 5px #514d4a5e;" data-aos="fade-top"data-aos-offset="400" data-aos-easing="ease-in-sine">Get in touch with us</h1>
+  <div class="row" style="text-align:center;overflow: hidden;">
+      <div class="col-md-6">
+          <a href="https://www.instagram.com/sebze.in/" style="color:orange;"><img src="images/instagram.png" width="100%" data-aos="fade-right"data-aos-offset="300" data-aos-easing="ease-in-sine"  style="width:150px;padding-top: 10px;"></a>
+      </div>
+      <div class="col-md-6">
+        <a href="https://www.facebook.com/Sebze-103753622272620"><img src="images/facebook.png" width="100%" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" style="width:150px;padding-top: 10px"></a>
+      </div>      
+  </div>
+</div>
+
+<!--download row starts-->
+<div class="container-fluid download">
+  <h1>Download the app</h1>
+
+  <div class="img-container-download">
+  <a href="#"><img src="images/playstore.png" data-aos="flip-left" data-aos-offset="300"  data-aos-duration="1500"></a>
+  <a href="#"><img src="images/appstore.png" data-aos="flip-right" data-aos-offset="300"  data-aos-duration="1500"></a>
+  </div>
+</div>
+<!--download row ends-->
+
+<!---container two ends -->
+<div class="border-img"><img src="images/fbdr.jpg" width="100%"></div>
+<!---container three -->
+<div class="container-fluid footer-section">
+	<div class="container">
+	<div class="row" style="padding-bottom: 1em;">
+			<div class="col-md-3 col-sm-3 col-xs-3 contact" id="ContactUS">
+				<h1>Contact Us</h1><br>
+				<p>Pavana Traders</p>
+				<p>L block,</p>
+        <p>Periyar vegetable market,</p>
+				<p>Koyambedu,</p>
+				<p>Chennai-600092, India.</p>
+				<p>Phone: 8072733253</p>
+    	</div>
+    		<div class="col-md-3 col-sm-3 col-xs-3">
+    			<h1>Policies</h1><br>
+    			<a href="terms_&_conditions.html" target="_blank" style="text-decoration: none;"><p>Terms & Conditions</p></a>
+    			<a href="Privacy_Policy.html" target="_blank" style="text-decoration: none;"><p>Privacy Policy</p></a>
+    			<a href="Refund_Policy.html" target="_blank" style="text-decoration: none;"><p>Refund Policy</p></a>
+
+    		</div>
+    		<div class="col-md-3 col-sm-3 col-xs-3">
+    		<h1>Reach Us :</h1><br>
+        <p>sebzedeli@gmail.com</p>
+    		</div>
+
+        <div class="col-md-3 col-sm-3 col-xs-3">
+          <h1>Social media</h1><br>
+          <div class="social_handle" style="padding-bottom: 1em;">
+            <a href="https://www.facebook.com/Sebze-103753622272620"><span class="media_social bi bi-facebook" style="background-color: #3b5998;"></span></a>
+            <a href="https://www.instagram.com/sebze.in/"><span class="media_social bi bi-instagram" style="background-color:#E1306C;"></span></a>
+            <a href="https://wa.me/+918072733253"><span class="media_social bi bi-whatsapp" style="background-color:lightgreen;"></span></a>
+          </div>
+        </div>
+	</div>
+
+  <div class="row">
+    <p style="padding-top:0.5em;padding-bottom: 0.5em;">Copyright © 2022, All rights reserved. <span style="float: right;"><a href="https://www.nautone.com/" style="color:white;text-decoration: none;">Powered by Nautone</a></span></p>
+  </div>
+	</div>
+</div>
+<!---container three ends -->
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<script type="text/javascript">
+    $(window).on('load', function() {
+        $('#myModal').modal('show');
+    });
+</script>
+</body>
+</html>
